@@ -1,12 +1,14 @@
-# Wireshark|The-Basics|TryHackMe
-Wireshark: The Basics | TryHackMe write up
-# Task 1: Introduction
-Wireshark is an open-source, cross-platform network packet analyser tool capable of sniffing and investigating live traffic and inspecting packet captures (PCAP). It is commonly used as one of the best packet analysis tools. In this room, we will look at the basics of Wireshark and use it to perform fundamental packet analysis.
+## introduction
+Learn the basics of traffic analysis with Wireshark and how to find anomalies on your network!
 
-Note: A VM is attached to this room. You don’t need SSH or RDP; the room provides a “Split View” feature. We suggest completing the Network Fundamentals module before starting working in this room.
+Link: https://tryhackme.com/room/wiresharkpacketoperations
 
-There are two capture files given in the VM. You can use the “http1.pcapng” file to simulate the actions shown in the screenshots. Please note that you need to use the “Exercise.pcapng” file to answer the questions.
+In this room, we will cover the techniques and key points of traffic analysis with Wireshark and detect suspicious activities.
+# Task 2:Nmap Scans 
+Use the “Desktop/exercise-pcaps/nmap/Exercise.pcapng” file.
+What is the total number of the “TCP Connect” scans?
+**Ans:100**
 
-No answer needed
-##Task 2
+**the filter**: **tcp.flags.syn == 1 and tcp.flags.ack == 0 and tcp.window_size > 1024** 
 
+<img width="700" height="500" alt="aa" src="https://github.com/user-attachments/assets/f5472c31-5b61-44de-97f6-d6d446fa091b" />
