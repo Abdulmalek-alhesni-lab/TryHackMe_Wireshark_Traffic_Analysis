@@ -421,8 +421,7 @@ Unselect Deny.
 
 <img width="1024" height="724" alt="image" src="https://github.com/user-attachments/assets/2dcd09f5-c7d4-4910-87b4-a47436f85f08" />
 
-## disclaimer 
-Attribution
+## Attribution 
 A huge credit to igor_sec for creating the original documentation featured in this repository!
 
 I have completed this learning path myself and am sharing these materials here as evidence of my course completion and to track my personal learning journey.
